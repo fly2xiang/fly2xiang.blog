@@ -27,15 +27,15 @@ Long polling 与polling不同的在于服务器在查询数据后若无数据则
 这种方法关键在于服务器端查询的间隔时间和消息的密集度。对于服务器端的间隔时间与polling相同在实际应用中可以使用消息队列或其他可以阻塞程序的操作来进行。
 这种方式相对于polling的优点是减少了网络带宽的浪费，缺点是如果消息密度较大则与polling相同。
 
-![](../images/long-polling.png)
+![](https://github.com/fly2xiang/fly2xiang_blog/raw/master/images/long-polling.png)
 
 Web Socket 是在客户端与服务器端建立了真正的双向连接，优点是建立连接后实时性高，而且无消息时基本没有资源浪费。缺点是与polling和long polliing相比改动较大，需要代理服务器支持。
 
-![](../images/websocket.png)
+![](https://github.com/fly2xiang/fly2xiang_blog/raw/master/images/websocket.png)
 
 Server sent-Event 像是long polling的升级版，在客户端发起请求后，服务端不断开连接，而是在有消息是向客户端不断写入消息。Server-sent Event有客户端的支持: EventSource。
 
-![](../images/server-sent-event.png)
+![](https://github.com/fly2xiang/fly2xiang_blog/raw/master/images/server-sent-event.png)
 
 这种方式看起来是非常好的，但Web QQ、微博等都没有使用此种方式。猜想这其中应该有两方面的原因：
 

@@ -101,6 +101,7 @@ else
 
 `weekdayRange` 周一到周五使用代理：
 
+```javascript
 if (weekdayRange("MON", "FRI"))
     return "PROXY proxy1.example.com:8080";
 else
