@@ -107,6 +107,8 @@ var_dump($run_id);
 
 点击那个大大的 [View Full Callgraph] 看到了调用图了吧。可以看到黄色的是较为耗时的，红色的是最为耗时的。
 
+如果这里提示没有找到 dot 命令之类是因为 调用图的生成是用graphviz实现的，CentOS下执行命令 `yum install graphviz` 安装后在回来看吧。
+
 我们发现 Redis::connect 耗时有 4s 之多，打上断点调试一看，是连接超时了。
 
 
