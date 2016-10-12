@@ -1,17 +1,19 @@
 title: "使用Xhprof检测PHP性能短板"
-date: 2015-09-08 10：44：10
+date: 2015-10-17 19:44:10
 tags:
 - PHP
 - 性能
 - Xhprof
 categories: 
+- PHP
+
 ---
 
 ## 起因
 
 最近的一个项目，在别人的基础上修改的，代码checkout出来之后，部署好，访问一看，愣是等了几秒钟才出现页面：
 
-![](../image/chrome-timeline.png)
+![](/image/chrome-timeline.png)
 
 问题到底出在哪儿呢？
 
@@ -27,7 +29,7 @@ categories:
 
 再看效果图：
 
-![](../image/callgraph.png)
+![](/image/callgraph.png)
 
 好直观有木有！
 
@@ -97,11 +99,11 @@ var_dump($run_id);
 
 是不是看到了这样的界面：
 
-![](../image/list.png)
+![](/image/list.png)
 
 点击唯一的链接
 
-![](../image/view.png)
+![](/image/view.jpg)
 
 列表中列出了函数耗时，内存等
 

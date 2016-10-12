@@ -4,6 +4,8 @@ tags:
 - Nginx
 - 替换
 categories: 
+- 服务器
+
 ---
 
 ## 简介

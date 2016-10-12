@@ -1,9 +1,11 @@
 title: "MySQL 优化要点整理（一）"
-date: 2015-07-10 10：32：00
+date: 2015-07-10 10:32:00
 tags:
 - MySQL
 - 优化
 categories: 
+- 数据库
+
 ---
 
 ## MySQL使用误区

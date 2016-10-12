@@ -5,6 +5,8 @@ tags:
 - Cache
 - 缓存
 categories: 
+- 前端
+
 ---
 
 ## 使用缓存的好处

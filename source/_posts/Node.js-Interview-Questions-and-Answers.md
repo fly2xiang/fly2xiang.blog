@@ -1,10 +1,12 @@
 title: "Node.js 常见面试题"
-date: 2015-07-01 11：05：00
+date: 2015-07-01 11:05:00
 tags:
 - Node.js
 - 面试题
 - 答案
 categories: 
+- NodeJS
+
 ---
 ## 前言
 

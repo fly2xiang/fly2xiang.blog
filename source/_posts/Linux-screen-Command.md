@@ -6,6 +6,8 @@ tags:
 - 命令
 - Screen
 categories: 
+- 服务器
+
 ---
 
 ## 简介

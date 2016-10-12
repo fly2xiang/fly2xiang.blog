@@ -4,6 +4,8 @@ tags:
 - HTML5
 - Server-sent-Event
 categories: 
+- 前端
+
 ---
 
 ## 什么是Server-sent Event
