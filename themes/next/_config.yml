@@ -243,10 +243,10 @@ mathjax:
 baidu_analytics: a9b0660159ad33616e8f2bb7343977b4
 
 # Duoshuo ShortName
-duoshuo_shortname: liuzhixiang
+# duoshuo_shortname: liuzhixiang
 
 # Disqus
-# disqus_shortname: fly2xiangs-site
+disqus_shortname: fly2xiangs-site
 
 # Baidu Share
 # Available value:
