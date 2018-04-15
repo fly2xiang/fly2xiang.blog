@@ -7,6 +7,8 @@ tags:
 categories: 
 - 大数据
 
+---
+
 ## 概述
 
 Hadoop MapReduce 可以方便的编写运行与数千台计算节点集群的大数据量处理程序。

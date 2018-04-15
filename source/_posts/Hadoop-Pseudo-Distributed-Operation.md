@@ -7,6 +7,8 @@ tags:
 categories: 
 - 大数据
 
+---
+
 ## 概述
 
 ### Hadoop 介绍

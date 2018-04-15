@@ -8,6 +8,8 @@ tags:
 categories: 
 - 大数据
 
+---
+
 ## 概述
 
 在使用 Spark 时，很多的例子是使用 Scala 语言进行编写，因此有必要对 Scala 的语法与使用进行学习。

@@ -8,6 +8,8 @@ tags:
 categories: 
 - 大数据
 
+---
+
 ## 概述
 
 HBase 是 Hadoop 家族中分布式、可伸缩的大数据存储。使用 HBase 可以达到随机、实时读写大数据。HBase 支持数十亿的行与数百万的列。HBase 是根据 Google BigTable 论文实现的。
