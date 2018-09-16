@@ -63,9 +63,9 @@ Selenium 支持多种语言：Java、C#、Ruby、Python、Perl、Javascript，�
 
 使用 Javascript 查找元素：
 
-···python
+```python
 >>> kw_input = driver.execute_script('return document.querySelector("#kw")')
-···
+```
 
 使用 Javascript 设置元素属性：
 
